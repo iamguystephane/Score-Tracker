@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { LogIn } from 'lucide-react'
+import { LogIn } from "lucide-react";
 
 function NavBar() {
   return (
@@ -19,10 +19,7 @@ function NavBar() {
           <Link to="/"> Home </Link>
         </div>
         <div className="flex items-center gap-4">
-          <button className="bg-yellow-600 text-white rounded-lg px-3 py-1 cursor-pointer transition-all duration-300 ease-in-out hover:bg-yellow-500">
-            Sign up
-          </button>
-          <button className="bg-blue-900 text-white rounded-lg px-3 py-1 cursor-pointer transition-all duration-300 ease-in-out hover:bg-blue-800 flex items-center gap-2">
+          <button className="rounded-lg px-3 py-1 cursor-pointer transition-all duration-300 ease-in-out shadow-lg text-gray-500 border flex items-center gap-2 hover:bg-gray-800 hover:text-white">
             <LogIn size={17} /> Login
           </button>
         </div>
