@@ -19,9 +19,9 @@ function NavBar() {
           <Link to="/"> Home </Link>
         </div>
         <div className="flex items-center gap-4">
-          <button className="rounded-lg px-3 py-1 cursor-pointer transition-all duration-300 ease-in-out shadow-lg text-gray-500 border flex items-center gap-2 hover:bg-gray-800 hover:text-white">
+          <Link to='/login' className="rounded-lg px-3 py-1 cursor-pointer transition-all duration-300 ease-in-out shadow-lg text-gray-500 border flex items-center gap-2 hover:bg-gray-800 hover:text-white">
             <LogIn size={17} /> Login
-          </button>
+          </Link>
         </div>
       </nav>
     </>
