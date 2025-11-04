@@ -4,7 +4,7 @@ import { LogIn } from "lucide-react";
 function NavBar() {
   return (
     <>
-      <nav className="flex w-full items-center justify-between px-8 shadow-sm">
+      <nav className="flex w-full items-center justify-between px-8 shadow-sm backdrop-blur-lg bg-transparent">
         <div className="flex items-center gap-3">
           <div className="flex items-center justify-center gap-2">
             <img

@@ -6,7 +6,7 @@ function Login() {
     <div>
       <NavBar />
       <div className="w-full h-[85vh] flex items-center justify-center">
-        <div className="rounded-lg p-8 shadow-lg xsm:w-[95%] md:w-2/3 lg:w-1/3">
+        <div className="rounded-lg p-8 shadow-lg xsm:w-[95%] md:w-2/3 lg:w-[45%]">
           <h1 className="text-3xl font-bold">Log into your account</h1>
           <p>Fill in the information below to join our score tracking system</p>
           <form className="">
