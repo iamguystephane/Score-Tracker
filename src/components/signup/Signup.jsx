@@ -82,7 +82,7 @@ function Signup() {
               </Link>
             </p>
             <button className="mt-5 w-full py-2 cursor-pointer rounded-lg bg-yellow-500 border-black border text-white transition-all duration-300 ease-in-out hover:bg-gray-600 shadow-lg">
-              Login
+              Complete Onboarding
             </button>
           </form>
         </div>
