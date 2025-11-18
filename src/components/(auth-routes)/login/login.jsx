@@ -40,7 +40,7 @@ function Login() {
   return (
     <div>
       <NavBar />
-      <div className="w-full h-screen flex items-center justify-center bg-[url(https://scontent-los2-1.xx.fbcdn.net/v/t39.30808-6/470054627_122148057272335691_5855341013070400379_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeGGtiPvZa4JnNMPaVCk8ZCsidDRnseZiO2J0NGex5mI7aznh6jbADAWgOwbVZ3YvAOKzNuQWsH3_rqG8DZKukWz&_nc_ohc=FZAsktSFe5wQ7kNvwHSscAu&_nc_oc=AdntNFeD_wcC8WjP99RY0_yDwOO47x9lx3C2VvM7MkMbIzrMU2KQWbWPGoizkvwp7WA&_nc_zt=23&_nc_ht=scontent-los2-1.xx&_nc_gid=Bq02rKPFkPNCVLrQHHlLwQ&oh=00_AfjUQAOhIILx2CeONBfuZnqkBxYy975N2iX1xB213_4ywg&oe=6918C955)] bg-center bg-cover">
+      <div className="w-full h-screen flex items-center justify-center bg-[url(https://eschosys.com/wp-content/uploads/2024/08/slide_image.jpg)] bg-center bg-cover">
         <div className="rounded-lg p-8 shadow-lg xsm:w-[95%] md:w-2/3 lg:w-[45%] backdrop-blur-lg text-white">
           <h1 className="text-3xl font-bold">Log into your account</h1>
           <p>Fill in the information below to join our score tracking system</p>
