@@ -13,7 +13,7 @@ function Sidebar({ routes, sidebarOpen, setSidebarOpen }) {
 
   const getCurrentPath = (url) => {
     if (location.pathname === url) {
-      return `bg-yellow-200 py-2 text-yellow-700 ${
+      return `bg-[#FEF5D1] py-2 text-yellow-500 ${
         sidebarOpen ? "border-r-4" : "rounded-lg"
       } `;
     }
@@ -22,14 +22,14 @@ function Sidebar({ routes, sidebarOpen, setSidebarOpen }) {
 
   return (
     <div
-      className={`xsm:h-[92vh] lg:h-[87vh] transition-all duration-300 ease-in-out fixed ${
+      className={`h-screen transition-all duration-300 ease-in-out pt-11 pb-8 fixed ${
         sidebarOpen ? "w-65" : "w-15"
       } shadow px-2 flex flex-col justify-between pb-5`}
     >
       <div>
         <div
           className={`flex ${
-            sidebarOpen ? "flex-row" : "flex-col items-start"
+            sidebarOpen ? "flex-row" : "flex-col items-center justify-center"
           } items-center gap-2 border-b-gray-300 border-b py-2 justify-between`}
         >
           <div className="flex items-center">
@@ -54,7 +54,7 @@ function Sidebar({ routes, sidebarOpen, setSidebarOpen }) {
             return (
               <Link
                 to={route.route}
-                className={`flex gap-4! items-center mb-2 hover:bg-yellow-200 py-2 hover:text-yellow-700 transition-all duration-300 ease-in-out px-2 ${
+                className={`flex gap-4! items-center mb-2 hover:bg-[#FEF5D1] py-2 hover:text-yellow-700 transition-all duration-300 ease-in-out px-2 ${
                   !sidebarOpen && "hover:rounded-lg"
                 } ${getCurrentPath(route.route)}`}
               >
